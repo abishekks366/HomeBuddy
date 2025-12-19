@@ -1,0 +1,14 @@
+{
+  "name": "homebuddy",
+  "version": "1.0.0",
+  "description": "HomeBuddy - Home Service Platform",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "build": "cd server && npm install",
+    "dev": "cd server && npm run dev"
+  },
+  "keywords": ["home-service", "booking"],
+  "author": "",
+  "license": "ISC"
+}
