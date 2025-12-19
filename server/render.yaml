@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: homebuddy-backend
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        value: mongodb+srv://dbHomeBuddy:Jai29Abi@homebuddy.ueyclo1.mongodb.net/?appName=HomeBuddy
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CLIENT_URL
+        value: https://your-vercel-app-url.vercel.app
